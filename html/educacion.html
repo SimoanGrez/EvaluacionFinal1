@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=width-device, user-scalable=no">
+    <title>Educacion</title>
+  </head>
+  <body>
+    <header>
+      <svg>
+        <image xlink:href=../images/logo.svg width="300px"></image>
+      </svg>
+      <h1>Mi hoja de vida Online</h1>
+    </header>
+    <p>
+      <h2>Datos personales</h2>
+      <h3>Nombres: Simona Andrea</h3>
+      <h3>Apellidos: Grez Arrau</h3>
+      <h3>Fecha de nacimiento: 14/03/1989</h3>
+      <h3>Lugar de nacimienton: Santiago, Chile</h3>
+    </p>
+    <menu>
+      <a href="../index.html">Inicio</a> |
+      <a href="educacion.html">Educacion</a> |
+      <a href="experiencia.html">Experiencia</a>
+    </menu>
+    <h2>Educación</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1995-2006</th>
+          <th>Brithish Hight School</th>
+          <th>Santiago, Chile</th>
+          <th>Si</th>
+        </tr>
+        <tr>
+          <th>2007-2011</th>
+          <th>Pontificia Univarsidad Católica</th>
+          <th>Santiago, Chile</th>
+          <th>Si</th>
+        </tr>
+      </tbody>
+    </table>
+    <h3>Agregar estudios</h3>
+    <form name="Agregar Estudios">
+      <label for="year"><strong>Año</strong></label>
+      <br>
+      <select name="year" required>
+        <option value="">2001</option>
+        <option value="">2002</option>
+        <option value="">2003</option>
+        <option value="">2004</option>
+        <option value="">2005</option>
+        <option value="">2006</option>
+        <option value="">2007</option>
+        <option value="">2008</option>
+        <option value="">2009</option>
+        <option value="">2010</option>
+        <option value="">2011</option>
+        <option value="">2012</option>
+        <option value="">2013</option>
+        <option value="">2014</option>
+        <option value="">2015</option>
+        <option value="">2016</option>
+        <option value="">2017</option>
+        <option value="">2018</option>
+        <option value="">2019</option>
+      </select>
+      <br>
+      <label for="institution"><strong>Institución</strong></label>
+      <br>
+      <input id="institution" type="text" name="institution" required>
+      <br>
+      <label for="place"><strong>Lugar</strong></label>
+      <br>
+      <textarea name="place" rows="3" cols="30"></textarea>
+      <br>
+      <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <footer>
+      <strong>Contacto:</strong><em> simona.grez@gmail.com</em> | <em>9 4027 2424</em>
+    </footer>
+  </body>
+</html>
